@@ -1,0 +1,202 @@
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+ i.fti {
+    background-image: url('https://d1lcu695erj7bo.cloudfront.net/media/1455/1455/1597071048-footer-mobile.png?q=12311');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 32px;
+    width: 40px;
+}
+
+ i.fti.visa {
+    background-position: 0 0;
+}
+
+ i.fti.mastercard {
+    background-position: -55px 0;
+}
+
+ i.fti.jcb {
+    background-position: 6px -168px;
+}
+
+ i.american-express {
+    background-position: -48px -168px;
+}
+
+ i.debit-card {
+    background-position: -98px -168px;
+}
+
+ i.bank-deposit {
+    width: 68px;
+    background-position: -152px -109px;
+}
+
+ i.installment {
+    width: 80px;
+    background-position: -243px -109px;
+}
+
+ i.line {
+    width: 88px;
+    background-position: -56px -109px;
+}
+
+ i.tesco {
+    background-position: -120px 0;
+}
+
+ i.tot {
+    width: 66px;
+    background-position: -174px 0;
+}
+
+ i.fti.fmart {
+    width: 50px;
+    background-position: -254px 0;
+}
+
+ i.fti.true-money {
+    width: 66px;
+    background-position: -36px -38px;
+}
+
+ i.fti.mpay {
+    width: 30px;
+    background-position: -318px 0;
+}
+
+ i.fti.bigc {
+    width: 30px;
+    background-position: 0 -37px;
+}
+
+ i.fti.pay-at-post {
+    width: 70px;
+    background-position: -118px -38px;
+}
+
+ i.fti.scb {
+    width: 74px;
+    background-position: -203px -38px;
+}
+
+ i.fti.tmb {
+    width: 42px;
+    background-position: 0 -108px;
+}
+
+ i.fti.krungsri {
+    width: 32px;
+    background-position: -318px -75px;
+}
+
+ i.fti.ktb {
+    width: 88px;
+    background-position: 0 -75px;
+}
+
+ i.fti.kbank {
+    width: 80px;
+    background-position: -225px -75px;
+}
+
+ i.fti.uob {
+    width: 56px;
+    background-position: -290px -40px;
+}
+
+ i.fti.bangkok-bank {
+    width: 112px;
+    background-position: -102px -75px;
+}
+
+ i.fti.geo-trust {
+    width: 102px;
+    background-position: -104px -140px;
+}
+
+ i.fti.dbd {
+    background-position: -296px -140px;
+    width: 55px;
+}
+
+ i.fti.oic {
+    width: 78px;
+    background-position: -216px -140px;
+}
+

@@ -1,0 +1,241 @@
+<app-navigation class="pcoded-navbar" [ngClass]="{'navbar-collapsed' : navCollapsed, 'theme-horizontal': this.gradientConfig['layout'] === 'horizontal', 'mob-open' : navCollapsedMob}" (onNavMobCollapse)="navMobClick()"></app-navigation>
+<app-nav-bar class="navbar pcoded-header navbar-expand-lg navbar-light" (onNavCollapse)="this.navCollapsed = !this.navCollapsed;" (onNavHeaderMobCollapse)="navMobClick()"></app-nav-bar>
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper" [ngClass]="{'container': this.gradientConfig.layout === 'horizontal' && this.gradientConfig.subLayout === 'horizontal-2'}">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <div class="main-body">
+          <div class="page-wrapper">
+            <app-breadcrumb></app-breadcrumb>
+            <router-outlet></router-outlet>
+          </div>
+        </div>
+        <section id="footer">
+          <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <h5>เกี่ยวกับเรา</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                </ul>
+                <h5>ติดต่อเรา</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <h5>รถยนต์</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+              
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <h5>จักรยานยนต์</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+              
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+              
+                </ul>
+              </div>
+           
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <h5>เดินทาง</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+              
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <h5>ประกันอุบัติเหตุ</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                </ul>
+                <h5>ประกันกลุ่ม</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-2 col-md-2">
+                <h5>สินทรัพย์</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                </ul>
+                <h5>ประกันสุขภาพ</h5>
+                <ul class="list-unstyled quick-links">
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>About</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                  <li><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                  <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <h5>วิธีการชำระเงิน</h5>
+                <div slot="credit-card-desktop">
+                  <label style="color: white;">จ่ายผ่านบัตรเครดิต</label>
+                  <div class="footer-sprite">
+                      <i class="fti visa"></i>
+                      <i class="fti mastercard"></i>
+                      <i class="fti jcb"></i>
+                      <i class="fti american-express"></i>
+                      <i class="fti debit-card"></i>
+                  </div>
+                  <label style="color: white;">จ่ายผ่านช่องทางอื่น</label>
+                  <div class="footer-sprite">
+                      <i class="fti bank-deposit"></i>
+                      <i class="fti installment"></i>
+                      <div><i class="fti line"></i></div>
+                  </div>
+                </div>
+              
+              </div>
+              <div class="col-xs-12 col-sm-3 col-md-3">
+              <br/>
+              <br/>
+              <label style="color: white;">จ่ายผ่านเคาท์เตอร์</label>
+              <div class="fti footer-sprite">
+                <i class="fti tesco"></i>
+                <i class="fti tot"></i>
+                <div>
+                    <i class="fti fmart"></i>
+                    <i class="fti true-money"></i>
+                </div>
+                <div>
+                    <i class="fti mpay"></i>
+                    <i class="fti bigc"></i>
+                    <i class="fti pay-at-post"></i>
+                </div>
+            </div>
+              </div>
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                <br/>
+                <br/>
+                <label style="color: white;">จ่ายผ่านเคาท์เตอร์</label>
+                <div class="footer-sprite">
+                  <i class="scb"></i>
+                  <i class="tmb"></i>
+                  <div>
+                      <i class="fti krungsri"></i>
+                      <i class="fti ktb"></i>
+                  </div>
+                  <div>
+                      <i class="fti kbank"></i>
+                      <i class="fti uob"></i>
+                  </div>
+                  <div><i class="fti bangkok-bank"></i></div>
+              </div>
+              </div>
+           
+              <div class="col-xs-12 col-sm-3 col-md-3">
+                  <h5 class="heading">ร่วมมือกับ</h5>
+                  <label style="color: white;">ออกกรมธรรม์โดย</label>
+                  <div class="insurance-partners">
+                      <img src="https://d1lcu695erj7bo.cloudfront.net/media/1455/1455/1597071048-provider-icons-sprite.png" alt="ออกกรมธรรม์โดย">
+                  </div>
+                  <label style="color: white;">รับรองความปลอดภัยโดย</label>
+                  <div class="footer-sprite">
+                      <i class="fti geo-trust"></i>
+                  </div>
+                  <label style="color: white;">ภายใต้การควบคุมจาก</label>
+                  <div class="footer-sprite" style="position:relative;">
+                      <p style="position:absolute;left:2px;bottom:-48px;font-size:10px">00017/2559</p>
+                      <a style="position:absolute;top:0;left:78px;cursor:pointer" onclick="pop('https://www.trustmarkthai.com/callbackData/popup.php?data=86501c3-26-5-7662fb11a70bca9462227013a7751f64ccd775','DBD',800,650,0,0)">
+                          <i class="fti dbd"></i>
+                      </a>
+                      <a style="position:absolute;left:0px;top:0;bottom:0;width:55%;cursor:pointer;" onclick="pop('https://d1lcu695erj7bo.cloudfront.net/media/1455/10198/1597071048-oic_broker_licence_05july_2561.pdf', 'OIC Broker License',800,650,0,0)">
+                          <i class="fti oic"></i>
+                      </a>
+                  </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+              </div>
+              <hr>
+            </div>	
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                10th Floor, Sethiwan Tower,139 Pan Rd. Silom, Bangrak 10500 Bangkok, Thailand • Frank Insurance Broker (Thailand) Co. Ltd., is trading as Frank.co.th
+                OIC license for non-life insurance registration number : 00017/2559 • DBD registration number 0105559056161  </div>
+              <hr>
+            </div>	
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<app-configuration></app-configuration>
