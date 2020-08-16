@@ -142,7 +142,7 @@ const NavigationItems = [
                 id: 'analytics',
                 title: 'ซื้อประกันจักรยานยนต์',
                 type: 'item',
-                url: '/dashboard/analytics',
+                url: '/car',
                 breadcrumbs: false
               },
             
